@@ -3,7 +3,7 @@
 set "folder=C:/X/X/X"
 set "fileName=FileName"
 
-:: FILENAME WITHOUT THE "."!
+:: FILE EXTENSION WITHOUT THE "."!
 set "extension=txt"
 
 echo %folder%
